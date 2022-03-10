@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import Previewer from './components/Previewer'
+import Editor from './components/Editor'
 
-function App() {
+function App() {      // can change to ES6
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Editor />
+      <Previewer />
     </div>
   );
 }
