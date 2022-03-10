@@ -1,4 +1,5 @@
 REACT-REDUX-SASS
+Provided 'marked' cdn from fCC does not work ('temporarily'). Alternative library does not seem to perform exactly the same way. 
 
 
 # Getting Started with Create React App
