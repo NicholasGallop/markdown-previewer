@@ -4,7 +4,7 @@ import propTypes from 'prop-types'
 import { FaExpand } from 'react-icons/fa'
 import '../scss/style.css'
 //import {marked}  from "https://cdn.skypack.dev/marked@4.0.0";
-//  'dynamic' export not allowed for github, had to install npm:'marked'
+//  'dynamic' export/import not allowed for github, had to install npm:'marked'
 import {marked} from 'marked';
 //     {brackets} important to extract function
    
